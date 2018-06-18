@@ -1,2 +1,68 @@
-<?xml version="1.1" encoding="utf-8"?>
-<e:Document xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:e="http://exerd.tomato.com/model" UUID="Document_xl9AsHLSEeixgPTJVNBQpg" activeBusinessArea="BArea_xl9Av3LSEeixgPTJVNBQpg" activeSchema="Schema_xl9AwnLSEeixgPTJVNBQpg" version="2.5.1.20180515-1801" productId="com.tomato.db.mysql" openedDiagrams="Diagram_xl9AwHLSEeixgPTJVNBQpg"><relationManager/><configuration><domainDefinition UUID="DDefinition_xl9AsXLSEeixgPTJVNBQpg"><domain UUID="Domain_xl9AsnLSEeixgPTJVNBQpg" name="문자" suggestedDataType="VARCHAR(255)"><domain UUID="Domain_xl9As3LSEeixgPTJVNBQpg" name="주민등록번호" suggestedDataType="VARCHAR(13)"/><domain UUID="Domain_xl9AtHLSEeixgPTJVNBQpg" name="주소"/><domain UUID="Domain_xl9AtXLSEeixgPTJVNBQpg" name="웹주소"/><domain UUID="Domain_xl9AtnLSEeixgPTJVNBQpg" name="전화번호" suggestedDataType="VARCHAR(30)"/><domain UUID="Domain_xl9At3LSEeixgPTJVNBQpg" name="이메일" suggestedDataType="VARCHAR(40)"/><domain UUID="Domain_xl9AuHLSEeixgPTJVNBQpg" name="이름" suggestedDataType="VARCHAR(50)"/></domain><domain UUID="Domain_xl9AuXLSEeixgPTJVNBQpg" name="숫자" suggestedDataType="INTEGER"><domain UUID="Domain_xl9AunLSEeixgPTJVNBQpg" name="금액"/></domain><domain UUID="Domain_xl9Au3LSEeixgPTJVNBQpg" name="일시" suggestedDataType="DATE"/><domain UUID="Domain_xl9AvHLSEeixgPTJVNBQpg" name="객체" suggestedDataType="BLOB"><domain UUID="Domain_xl9AvXLSEeixgPTJVNBQpg" name="이미지" suggestedDataType="VARBINARY"/><domain UUID="Domain_xl9AvnLSEeixgPTJVNBQpg" name="오디오" suggestedDataType="VARBINARY"/></domain></domainDefinition><viewSettingsPreset name="eXERD 기본" showAltTableName="false"><cellsToShow>name</cellsToShow><cellsToShow>domain</cellsToShow><cellsToShow>dataType</cellsToShow></viewSettingsPreset><viewSettingsPreset name="엔티티 모드" showAltTableName="false"><cellsToShow>name</cellsToShow><cellsToShow>domain</cellsToShow></viewSettingsPreset><viewSettingsPreset name="E-R 개요 모드" columnFilter="tableOnly" showTableComment="true"><cellsToShow>name</cellsToShow><cellsToShow>domain</cellsToShow><cellsToShow>dataType</cellsToShow></viewSettingsPreset><viewSettingsPreset showColumnHeader="true" name="논리/물리 동시편집"><cellsToShow>name</cellsToShow><cellsToShow>oppositeModeName</cellsToShow><cellsToShow>domain</cellsToShow><cellsToShow>dataType</cellsToShow><cellsToShow>nullable</cellsToShow></viewSettingsPreset></configuration><businessAreas UUID="BArea_xl9Av3LSEeixgPTJVNBQpg" logicalName="기본 업무영역" physicalName="DEFAULT_AREA"><diagrams UUID="Diagram_xl9AwHLSEeixgPTJVNBQpg" logicalName="다이어그램" physicalName="diagram"><viewSettings showAltTableName="false"><cellsToShow>name</cellsToShow><cellsToShow>domain</cellsToShow><cellsToShow>dataType</cellsToShow></viewSettings><printSettings marginTop="10" marginRight="10" marginBottom="10" marginLeft="10" paperKind="A4" paperOrientation="landscape" header="${FILE} - ${DIAGRAM} - ${PAGENUM} / ${FULLPAGE}" footter="${YEAR}-${MONTH}-${DAY} ${HOUR}:${DAY}"/></diagrams></businessAreas><databaseModel UUID="DModel_xl9AwXLSEeixgPTJVNBQpg" logicalName="새 데이터베이스" physicalName="NEW_DATABASE"><schema UUID="Schema_xl9AwnLSEeixgPTJVNBQpg" logicalName="내 스키마" physicalName="MY_SCHEMA"/></databaseModel><sharedIcons UUID="SIcons_xl9Aw3LSEeixgPTJVNBQpg"/></e:Document>
+<?xml version="1.1" encoding="UTF-8"?>
+<e:Document xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:e="http://exerd.tomato.com/model" UUID="Document_xl9AsHLSEeixgPTJVNBQpg" activeBusinessArea="BArea_xl9Av3LSEeixgPTJVNBQpg" activeSchema="Schema_xl9AwnLSEeixgPTJVNBQpg" version="2.5.1.20180515-1801" productId="com.tomato.db.mysql" openedDiagrams="Diagram_xl9AwHLSEeixgPTJVNBQpg">
+  <relationManager/>
+  <configuration>
+    <domainDefinition UUID="DDefinition_xl9AsXLSEeixgPTJVNBQpg">
+      <domain UUID="Domain_xl9AsnLSEeixgPTJVNBQpg" name="문자" suggestedDataType="VARCHAR(255)">
+        <domain UUID="Domain_xl9As3LSEeixgPTJVNBQpg" name="주민등록번호" suggestedDataType="VARCHAR(13)"/>
+        <domain UUID="Domain_xl9AtHLSEeixgPTJVNBQpg" name="주소"/>
+        <domain UUID="Domain_xl9AtXLSEeixgPTJVNBQpg" name="웹주소"/>
+        <domain UUID="Domain_xl9AtnLSEeixgPTJVNBQpg" name="전화번호" suggestedDataType="VARCHAR(30)"/>
+        <domain UUID="Domain_xl9At3LSEeixgPTJVNBQpg" name="이메일" suggestedDataType="VARCHAR(40)"/>
+        <domain UUID="Domain_xl9AuHLSEeixgPTJVNBQpg" name="이름" suggestedDataType="VARCHAR(50)"/>
+      </domain>
+      <domain UUID="Domain_xl9AuXLSEeixgPTJVNBQpg" name="숫자" suggestedDataType="INTEGER">
+        <domain UUID="Domain_xl9AunLSEeixgPTJVNBQpg" name="금액"/>
+      </domain>
+      <domain UUID="Domain_xl9Au3LSEeixgPTJVNBQpg" name="일시" suggestedDataType="DATE"/>
+      <domain UUID="Domain_xl9AvHLSEeixgPTJVNBQpg" name="객체" suggestedDataType="BLOB">
+        <domain UUID="Domain_xl9AvXLSEeixgPTJVNBQpg" name="이미지" suggestedDataType="VARBINARY"/>
+        <domain UUID="Domain_xl9AvnLSEeixgPTJVNBQpg" name="오디오" suggestedDataType="VARBINARY"/>
+      </domain>
+    </domainDefinition>
+    <viewSettingsPreset name="eXERD 기본" showAltTableName="false">
+      <cellsToShow>name</cellsToShow>
+      <cellsToShow>domain</cellsToShow>
+      <cellsToShow>dataType</cellsToShow>
+    </viewSettingsPreset>
+    <viewSettingsPreset name="엔티티 모드" showAltTableName="false">
+      <cellsToShow>name</cellsToShow>
+      <cellsToShow>domain</cellsToShow>
+    </viewSettingsPreset>
+    <viewSettingsPreset name="E-R 개요 모드" columnFilter="tableOnly" showTableComment="true">
+      <cellsToShow>name</cellsToShow>
+      <cellsToShow>domain</cellsToShow>
+      <cellsToShow>dataType</cellsToShow>
+    </viewSettingsPreset>
+    <viewSettingsPreset showColumnHeader="true" name="논리/물리 동시편집">
+      <cellsToShow>name</cellsToShow>
+      <cellsToShow>oppositeModeName</cellsToShow>
+      <cellsToShow>domain</cellsToShow>
+      <cellsToShow>dataType</cellsToShow>
+      <cellsToShow>nullable</cellsToShow>
+    </viewSettingsPreset>
+  </configuration>
+  <businessAreas UUID="BArea_xl9Av3LSEeixgPTJVNBQpg" logicalName="기본 업무영역" physicalName="DEFAULT_AREA" tables="Table_CEh2gHLUEeixgPTJVNBQpg">
+    <diagrams UUID="Diagram_xl9AwHLSEeixgPTJVNBQpg" logicalName="다이어그램" physicalName="diagram">
+      <diagramEntry xsi:type="e:TableDiagram" UUID="TDiagram_CEh2gXLUEeixgPTJVNBQpg" location="Point(217.0, 178.0)" table="Table_CEh2gHLUEeixgPTJVNBQpg"/>
+      <viewSettings showColumnHeader="true">
+        <cellsToShow>name</cellsToShow>
+        <cellsToShow>oppositeModeName</cellsToShow>
+        <cellsToShow>domain</cellsToShow>
+        <cellsToShow>dataType</cellsToShow>
+        <cellsToShow>nullable</cellsToShow>
+      </viewSettings>
+      <printSettings marginTop="10" marginRight="10" marginBottom="10" marginLeft="10" paperKind="A4" paperOrientation="landscape" header="${FILE} - ${DIAGRAM} - ${PAGENUM} / ${FULLPAGE}" footter="${YEAR}-${MONTH}-${DAY} ${HOUR}:${DAY}"/>
+    </diagrams>
+  </businessAreas>
+  <databaseModel UUID="DModel_xl9AwXLSEeixgPTJVNBQpg" logicalName="새 데이터베이스" physicalName="NEW_DATABASE">
+    <schema UUID="Schema_xl9AwnLSEeixgPTJVNBQpg" logicalName="내 스키마" physicalName="MY_SCHEMA">
+      <tables UUID="Table_CEh2gHLUEeixgPTJVNBQpg" logicalName="새 테이블" physicalName="TABLE">
+        <columns UUID="Column_CfEdcHLUEeixgPTJVNBQpg" logicalName="새 컬럼" physicalName="COL"/>
+        <columns UUID="Column_D3lIgHLUEeixgPTJVNBQpg" logicalName="새 컬럼2" physicalName="COL2"/>
+        <columns UUID="Column_D6yNgHLUEeixgPTJVNBQpg" logicalName="새 컬럼3" physicalName="COL3"/>
+      </tables>
+    </schema>
+  </databaseModel>
+  <sharedIcons UUID="SIcons_xl9Aw3LSEeixgPTJVNBQpg"/>
+</e:Document>

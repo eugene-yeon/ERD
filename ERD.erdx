@@ -44,7 +44,7 @@
   </configuration>
   <businessAreas UUID="BArea_xl9Av3LSEeixgPTJVNBQpg" logicalName="기본 업무영역" physicalName="DEFAULT_AREA" tables="Table_CEh2gHLUEeixgPTJVNBQpg">
     <diagrams UUID="Diagram_xl9AwHLSEeixgPTJVNBQpg" logicalName="다이어그램" physicalName="diagram">
-      <diagramEntry xsi:type="e:TableDiagram" UUID="TDiagram_CEh2gXLUEeixgPTJVNBQpg" location="Point(217.0, 178.0)" table="Table_CEh2gHLUEeixgPTJVNBQpg"/>
+      <diagramEntry xsi:type="e:TableDiagram" UUID="TDiagram_CEh2gXLUEeixgPTJVNBQpg" location="Point(203.0, 157.0)" table="Table_CEh2gHLUEeixgPTJVNBQpg"/>
       <viewSettings showColumnHeader="true">
         <cellsToShow>name</cellsToShow>
         <cellsToShow>oppositeModeName</cellsToShow>

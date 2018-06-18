@@ -61,6 +61,7 @@
         <columns UUID="Column_CfEdcHLUEeixgPTJVNBQpg" logicalName="새 컬럼" physicalName="COL"/>
         <columns UUID="Column_D3lIgHLUEeixgPTJVNBQpg" logicalName="새 컬럼2" physicalName="COL2"/>
         <columns UUID="Column_D6yNgHLUEeixgPTJVNBQpg" logicalName="새 컬럼3" physicalName="COL3"/>
+        <columns UUID="Column_PDaSUHLVEeixgPTJVNBQpg" logicalName="새 컬럼4" physicalName="COL4"/>
       </tables>
     </schema>
   </databaseModel>
